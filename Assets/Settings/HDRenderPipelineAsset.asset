@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cf1dab834d4ec34195b920ea7bbf9ec, type: 3}
   m_Name: HDRenderPipelineAsset
   m_EditorClassIdentifier: 
-  m_Version: 15
+  m_Version: 18
   m_ObsoleteFrameSettings:
     overrides: 0
     enableShadow: 0
@@ -148,66 +148,51 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
-  m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7,
-    type: 2}
+  m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7, type: 2}
   m_RenderPipelineRayTracingResources: {fileID: 0}
-  m_DefaultVolumeProfile: {fileID: 11400000, guid: 582adbd84082fdb4faf7cd4beb1ccd14,
-    type: 2}
-  m_DefaultLookDevProfile: {fileID: 11400000, guid: 254c4fe87beb7be4fa72e1681edbed02,
-    type: 2}
+  m_DefaultVolumeProfile: {fileID: 11400000, guid: 582adbd84082fdb4faf7cd4beb1ccd14, type: 2}
+  m_DefaultLookDevProfile: {fileID: 11400000, guid: 254c4fe87beb7be4fa72e1681edbed02, type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 140668768878429
-      data2: 4539628425463136256
+      data2: 4539628425463136280
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
     maximumLODLevel: 0
     maximumLODLevelMode: 0
     maximumLODLevelQualityLevel: 0
-    sssQualityMode: 0
-    sssQualityLevel: 0
-    sssCustomSampleBudget: 20
     materialQuality: 0
   m_RenderingPathDefaultBakedOrCustomReflectionFrameSettings:
     bitDatas:
       data1: 139742655312669
-      data2: 4539628424389459968
+      data2: 4539628424389459992
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
     maximumLODLevel: 0
     maximumLODLevelMode: 0
     maximumLODLevelQualityLevel: 0
-    sssQualityMode: 0
-    sssQualityLevel: 0
-    sssCustomSampleBudget: 20
     materialQuality: 0
   m_RenderingPathDefaultRealtimeReflectionFrameSettings:
     bitDatas:
       data1: 139991494955789
-      data2: 4539628424389459968
+      data2: 4539628424389459992
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
     maximumLODLevel: 0
     maximumLODLevelMode: 0
     maximumLODLevelQualityLevel: 0
-    sssQualityMode: 0
-    sssQualityLevel: 0
-    sssCustomSampleBudget: 20
     materialQuality: 0
   m_RenderPipelineSettings:
     supportShadowMask: 1
     supportSSR: 0
-    supportSSRTransparent: 0
     supportSSAO: 1
     supportSubsurfaceScattering: 1
-    sssSampleBudget:
-      m_Values: 140000002800000050000000
-      m_SchemaId:
-        m_Id: With3Levels
+    increaseSssSampleCount: 1
     supportVolumetrics: 1
+    increaseResolutionOfVolumetrics: 0
     supportLightLayers: 0
     lightLayerName0: Light Layer default
     lightLayerName1: Light Layer 1
@@ -231,15 +216,7 @@ MonoBehaviour:
     supportRuntimeDebugDisplay: 1
     supportDitheringCrossFade: 1
     supportTerrainHole: 0
-    supportProbeVolume: 0
     supportRayTracing: 0
-    supportedRayTracingMode: 3
-    probeVolumeSettings:
-      atlasWidth: 128
-      atlasHeight: 128
-      atlasDepth: 512
-      atlasOctahedralDepthWidth: 2048
-      atlasOctahedralDepthHeight: 2048
     lightLoopSettings:
       cookieAtlasSize: 512
       cookieFormat: 74
@@ -368,6 +345,9 @@ MonoBehaviour:
   diffusionProfileSettingsList:
   - {fileID: 11400000, guid: 26bdddf49760c61438938733f07fa2a2, type: 2}
   - {fileID: 11400000, guid: 78322c7f82657514ebe48203160e3f39, type: 2}
+  - {fileID: 11400000, guid: cb824b513c3aa274db0944d6fb82a86c, type: 2}
+  - {fileID: 11400000, guid: 2d31128e8db0c1643872f253a85dc22e, type: 2}
+  - {fileID: 11400000, guid: 2f995df9a3ad4e6499669b35a6ff3a2b, type: 2}
   beforeTransparentCustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
   afterPostProcessCustomPostProcesses: []
