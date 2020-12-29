@@ -69,11 +69,7 @@ MonoBehaviour:
   includeSunInBaking:
     m_OverrideState: 1
     m_Value: 0
-  m_SkyVersion: 1
-  m_ObsoleteEarthPreset:
-    m_OverrideState: 1
-    m_Value: 1
-  type:
+  earthPreset:
     m_OverrideState: 1
     m_Value: 1
   sphericalMode:
