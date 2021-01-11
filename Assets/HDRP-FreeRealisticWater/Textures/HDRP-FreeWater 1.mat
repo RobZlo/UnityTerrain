@@ -289,7 +289,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_10BE3CD8: 0
-    - Vector1_2DCE38F4: -0.154
+    - Vector1_2DCE38F4: -0.1
     - Vector1_3034A0E7: 0
     - Vector1_35CC0B3F: 0
     - Vector1_3894EE55: 0
@@ -353,7 +353,7 @@ Material:
     - _DiffusionProfile1: 0
     - _DiffusionProfile2: 0
     - _DiffusionProfile3: 0
-    - _DiffusionProfileHash: 0
+    - _DiffusionProfileHash: 2.434304
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
@@ -580,7 +580,7 @@ Material:
     - Color_A0995202: {r: 0.095007114, g: 0.25094274, b: 0.3301887, a: 1}
     - Color_DD167ECF: {r: 0.9433962, g: 0, b: 0, a: 1}
     - Color_F4D2E00B: {r: 0.14195444, g: 0.5134238, b: 0.5471698, a: 1}
-    - Vector2_6E1E59F4: {r: 1000, g: 1000, b: 0, a: 0}
+    - Vector2_6E1E59F4: {r: 10000, g: 10000, b: 0, a: 0}
     - _BaseColor0: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor1: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor2: {r: 1, g: 1, b: 1, a: 1}
@@ -588,7 +588,7 @@ Material:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _Color0: {r: 0.1532764, g: 0.6105888, b: 0.9926471, a: 0}
     - _DeepColor: {r: 0.07058769, g: 0.17646986, b: 0.32941103, a: 1}
-    - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
+    - _DiffusionProfileAsset: {r: 1.1347557e+24, g: -2.8155381e+22, b: 1.6689648e-35, a: 7.356143e-12}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
@@ -615,6 +615,21 @@ Material:
     - _WaterColor: {r: 0.32515138, g: 0.5365902, b: 0.71323526, a: 0}
     - _WaveSpeed: {r: -0.05, g: 0.05, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &573331893625685640
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa486462e6be1764e89c788ba30e61f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DiffusionProfileReferences:
+  - {fileID: 11400000, guid: 3b4b7067cdc9bee48b79b1051f69012d, type: 2}
+  m_MaterialReferences: []
 --- !u!114 &1704817363670343259
 MonoBehaviour:
   m_ObjectHideFlags: 11
