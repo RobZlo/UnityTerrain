@@ -20,7 +20,7 @@ Allgemein die Umsetzung eines Projekts mit der High Definition Rendering Pipelin
 Das Modellieren des Untergrunds mit den Brushes und Texturen kostet sehr viel Zeit bis man mit dem Ergebnis zufrieden ist.
 
 Link zum Video:
-https://youtu.be/b9_P6TrVc7I
+https://youtu.be/YhfrTWom810
 
 Link zum Repository:
 https://github.com/RobZlo/UnityTerrain.git
